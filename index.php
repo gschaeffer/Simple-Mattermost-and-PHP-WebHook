@@ -91,8 +91,8 @@ if(!empty($_POST['form1-submit'])){
 
 		// TO-DO: Change the teams var to use your team name and webhook url 
 		var teams = {
-			"Team Alpha": "https://my.mattermostinstall.com/hooks/randomstring",
-			"Team Bravo": "https://my.mattermostinstall.com/hooks/randomstring"
+			"Team Alpha": "https://my.mattermostinstall.com/hooks/webhookstring",
+			"Team Bravo": "https://my.mattermostinstall.com/hooks/webhookstring"
 		};
 		$('#teamSlct').html($.map(teams, function (val, key) {
 		    return '<option value="' + val + '">' + key + '</option>';
